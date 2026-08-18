@@ -339,3 +339,734 @@
 2025-08-29 15:46:36,584 - INFO - 127.0.0.1 - - [29/Aug/2025 15:46:36] "POST /_dash-update-component HTTP/1.1" 200 -
 2025-08-29 15:46:36,838 - INFO - 127.0.0.1 - - [29/Aug/2025 15:46:36] "POST /_dash-update-component HTTP/1.1" 200 -
 2025-08-29 15:46:36,956 - INFO - 127.0.0.1 - - [29/Aug/2025 15:46:36] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 11:46:26,054 - INFO - Downloading: 2020.zip
+2026-07-05 11:46:44,268 - INFO - Downloading: 2021.zip
+2026-07-05 11:47:01,981 - INFO - Downloading: 2022.zip
+2026-07-05 11:47:13,752 - INFO - Downloading: 2023.zip
+2026-07-05 11:47:25,592 - INFO - Downloading: 2024.zip
+2026-07-05 11:47:40,269 - INFO - Downloading: 2025.zip
+2026-07-05 11:47:52,642 - INFO - Updated years: 2020, 2021, 2022, 2023, 2024, 2025
+2026-07-05 11:47:53,554 - ERROR - Failed to send email notification: (334, b'UGFzc3dvcmQ6')
+2026-07-05 11:49:22,947 - INFO - No update needed for 2020.zip
+2026-07-05 11:49:23,148 - INFO - No update needed for 2021.zip
+2026-07-05 11:49:23,339 - INFO - No update needed for 2022.zip
+2026-07-05 11:49:23,541 - INFO - No update needed for 2023.zip
+2026-07-05 11:49:23,712 - INFO - No update needed for 2024.zip
+2026-07-05 11:49:23,898 - INFO - No update needed for 2025.zip
+2026-07-05 11:49:23,898 - INFO - No updates detected for any years.
+2026-07-05 11:50:37,048 - INFO - No update needed for 2020.zip
+2026-07-05 11:50:37,215 - INFO - No update needed for 2021.zip
+2026-07-05 11:50:37,388 - INFO - No update needed for 2022.zip
+2026-07-05 11:50:37,571 - INFO - No update needed for 2023.zip
+2026-07-05 11:50:37,734 - INFO - No update needed for 2024.zip
+2026-07-05 11:50:37,907 - INFO - No update needed for 2025.zip
+2026-07-05 11:50:37,907 - INFO - No updates detected for any years.
+2026-07-05 11:50:55,484 - INFO - Dash is running on http://0.0.0.0:5000/
+
+2026-07-05 11:50:55,517 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.40:5000
+2026-07-05 11:50:55,517 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-05 11:50:55,936 - INFO - Starting the zip file update check.
+2026-07-05 11:50:56,116 - INFO - No update needed for 2020.zip
+2026-07-05 11:50:56,286 - INFO - No update needed for 2021.zip
+2026-07-05 11:50:56,459 - INFO - No update needed for 2022.zip
+2026-07-05 11:50:56,631 - INFO - No update needed for 2023.zip
+2026-07-05 11:50:56,809 - INFO - No update needed for 2024.zip
+2026-07-05 11:50:56,989 - INFO - No update needed for 2025.zip
+2026-07-05 11:50:56,989 - INFO - No updates detected for any years.
+2026-07-05 11:55:29,140 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:29] "GET / HTTP/1.1" 200 -
+2026-07-05 11:55:29,289 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:29] "GET /_dash-component-suites/dash/deps/prop-types@15.v4_4_0m1783244462.8.1.min.js HTTP/1.1" 200 -
+2026-07-05 11:55:29,294 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:29] "GET /_dash-component-suites/dash/deps/polyfill@7.v4_4_0m1783244462.12.1.min.js HTTP/1.1" 200 -
+2026-07-05 11:55:29,297 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:29] "GET /_dash-component-suites/dash/deps/react@18.v4_4_0m1783244462.3.1.min.js HTTP/1.1" 200 -
+2026-07-05 11:55:29,339 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:29] "GET /_dash-component-suites/dash/deps/react-dom@18.v4_4_0m1783244462.3.1.min.js HTTP/1.1" 200 -
+2026-07-05 11:55:29,381 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:29] "GET /_dash-component-suites/dash_bootstrap_components/_components/dash_bootstrap_components.v2_0_4m1783244933.min.js HTTP/1.1" 200 -
+2026-07-05 11:55:29,606 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:29] "GET /_dash-component-suites/dash/html/dash_html_components.v4_4_0m1783244462.min.js HTTP/1.1" 200 -
+2026-07-05 11:55:29,645 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:29] "GET /_dash-component-suites/dash/dcc/dash_core_components-shared.v4_4_0m1783244462.js HTTP/1.1" 200 -
+2026-07-05 11:55:29,671 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:29] "GET /_dash-component-suites/dash/dash_table/bundle.v7_4_0m1783244462.js HTTP/1.1" 200 -
+2026-07-05 11:55:30,038 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:30] "GET /_dash-component-suites/dash/dcc/dash_core_components.v4_4_0m1783244462.js HTTP/1.1" 200 -
+2026-07-05 11:55:30,223 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:30] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v4_4_0m1783244462.min.js HTTP/1.1" 200 -
+2026-07-05 11:55:30,277 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:30] "GET /_dash-layout HTTP/1.1" 200 -
+2026-07-05 11:55:30,279 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:30] "GET /_dash-dependencies HTTP/1.1" 200 -
+2026-07-05 11:55:30,296 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:30] "GET /_favicon.ico?v=4.4.0 HTTP/1.1" 200 -
+2026-07-05 11:55:30,311 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 11:55:30,314 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 11:55:30,452 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 11:55:30,468 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:30] "GET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+2026-07-05 11:55:30,533 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:30] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+2026-07-05 11:55:30,653 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 11:55:31,163 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:31] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+2026-07-05 11:55:32,666 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 11:55:50,195 - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\backends\_flask.py", line 264, in _dispatch
+    response_data = ctx.run(partial_func)
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\_callback.py", line 784, in add_context
+    raise err
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\_callback.py", line 775, in add_context
+    output_value = _invoke_callback(func, *func_args, **func_kwargs)  # type: ignore[reportArgumentType]
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\_callback.py", line 59, in _invoke_callback
+    return func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\Marco\Documents\GitHub\CFTC-COT-Report\src\app_cftc.py", line 88, in create_z_score_plot
+    z_score_list_one_year_non_comm = CFTC.get_list_of_z_scores(list_of_i_and_date, 1, diff_non_comm)
+                                                               ^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'list_of_i_and_date' where it is not associated with a value
+2026-07-05 11:55:50,197 - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\backends\_flask.py", line 264, in _dispatch
+    response_data = ctx.run(partial_func)
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\_callback.py", line 784, in add_context
+    raise err
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\_callback.py", line 775, in add_context
+    output_value = _invoke_callback(func, *func_args, **func_kwargs)  # type: ignore[reportArgumentType]
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\_callback.py", line 59, in _invoke_callback
+    return func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\Marco\Documents\GitHub\CFTC-COT-Report\src\app_cftc.py", line 198, in get_cftc_positioning
+    df.columns = ['class', 'latest', 'w/w change', '3m ave', '6m ave', '1y ave', '3y ave', '3y max', '3y min', '1y zscore', '3y zscore']
+    ^^^^^^^^^^
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\generic.py", line 6313, in __setattr__
+    return object.__setattr__(self, name, value)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "properties.pyx", line 69, in pandas._libs.properties.AxisProperty.__set__
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\generic.py", line 814, in _set_axis
+    self._mgr.set_axis(axis, labels)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\internals\managers.py", line 238, in set_axis
+    self._validate_set_axis(axis, new_labels)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\internals\base.py", line 98, in _validate_set_axis
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Length mismatch: Expected axis has 0 elements, new values have 11 elements
+2026-07-05 11:55:50,203 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:50] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-07-05 11:55:50,286 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:50] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-07-05 11:55:56,539 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:56] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 11:55:57,363 - INFO - 127.0.0.1 - - [05/Jul/2026 11:55:57] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 11:56:50,414 - INFO - 127.0.0.1 - - [05/Jul/2026 11:56:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 11:56:50,427 - INFO - 127.0.0.1 - - [05/Jul/2026 11:56:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 11:56:50,448 - INFO - 127.0.0.1 - - [05/Jul/2026 11:56:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 11:56:50,518 - INFO - 127.0.0.1 - - [05/Jul/2026 11:56:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 12:03:27,174 - INFO - 127.0.0.1 - - [05/Jul/2026 12:03:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 12:03:27,178 - INFO - 127.0.0.1 - - [05/Jul/2026 12:03:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 12:03:27,232 - INFO - 127.0.0.1 - - [05/Jul/2026 12:03:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 12:03:27,451 - INFO - 127.0.0.1 - - [05/Jul/2026 12:03:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 12:03:28,498 - INFO - 127.0.0.1 - - [05/Jul/2026 12:03:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 12:08:27,846 - INFO - 127.0.0.1 - - [05/Jul/2026 12:08:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 12:08:28,704 - INFO - 127.0.0.1 - - [05/Jul/2026 12:08:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 12:10:17,378 - INFO - 127.0.0.1 - - [05/Jul/2026 12:10:17] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-05 12:10:18,193 - INFO - 127.0.0.1 - - [05/Jul/2026 12:10:18] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-09 22:57:55,937 - INFO - No update needed for 2020.zip
+2026-07-09 22:57:56,125 - INFO - No update needed for 2021.zip
+2026-07-09 22:57:56,308 - INFO - No update needed for 2022.zip
+2026-07-09 22:57:56,488 - INFO - No update needed for 2023.zip
+2026-07-09 22:57:56,663 - INFO - No update needed for 2024.zip
+2026-07-09 22:57:56,848 - INFO - Updating: 2025.zip
+2026-07-09 22:58:02,733 - INFO - Updated years: 2025
+2026-07-09 22:58:03,447 - ERROR - Failed to send email notification: (334, b'UGFzc3dvcmQ6')
+2026-07-09 22:58:23,336 - INFO - Dash is running on http://0.0.0.0:5000/
+
+2026-07-09 22:58:23,459 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.40:5000
+2026-07-09 22:58:23,459 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-09 22:58:23,977 - INFO - Starting the zip file update check.
+2026-07-09 22:58:24,158 - INFO - No update needed for 2020.zip
+2026-07-09 22:58:24,326 - INFO - No update needed for 2021.zip
+2026-07-09 22:58:24,508 - INFO - No update needed for 2022.zip
+2026-07-09 22:58:24,693 - INFO - No update needed for 2023.zip
+2026-07-09 22:58:24,888 - INFO - No update needed for 2024.zip
+2026-07-09 22:58:25,070 - INFO - No update needed for 2025.zip
+2026-07-09 22:58:25,070 - INFO - No updates detected for any years.
+2026-07-09 23:01:57,547 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:57] "GET / HTTP/1.1" 200 -
+2026-07-09 23:01:57,725 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:57] "GET /_dash-component-suites/dash/deps/react@18.v4_4_0m1783244462.3.1.min.js HTTP/1.1" 200 -
+2026-07-09 23:01:57,727 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:57] "GET /_dash-component-suites/dash/deps/prop-types@15.v4_4_0m1783244462.8.1.min.js HTTP/1.1" 200 -
+2026-07-09 23:01:57,747 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:57] "GET /_dash-component-suites/dash/deps/polyfill@7.v4_4_0m1783244462.12.1.min.js HTTP/1.1" 200 -
+2026-07-09 23:01:57,823 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:57] "GET /_dash-component-suites/dash_bootstrap_components/_components/dash_bootstrap_components.v2_0_4m1783244933.min.js HTTP/1.1" 200 -
+2026-07-09 23:01:57,973 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:57] "GET /_dash-component-suites/dash/deps/react-dom@18.v4_4_0m1783244462.3.1.min.js HTTP/1.1" 200 -
+2026-07-09 23:01:58,087 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:58] "GET /_dash-component-suites/dash/dcc/dash_core_components-shared.v4_4_0m1783244462.js HTTP/1.1" 200 -
+2026-07-09 23:01:58,143 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:58] "GET /_dash-component-suites/dash/html/dash_html_components.v4_4_0m1783244462.min.js HTTP/1.1" 200 -
+2026-07-09 23:01:58,235 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:58] "GET /_dash-component-suites/dash/dash_table/bundle.v7_4_0m1783244462.js HTTP/1.1" 200 -
+2026-07-09 23:01:58,568 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:58] "GET /_dash-component-suites/dash/dcc/dash_core_components.v4_4_0m1783244462.js HTTP/1.1" 200 -
+2026-07-09 23:01:58,896 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:58] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v4_4_0m1783244462.min.js HTTP/1.1" 200 -
+2026-07-09 23:01:58,951 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:58] "GET /_dash-dependencies HTTP/1.1" 200 -
+2026-07-09 23:01:58,952 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:58] "GET /_dash-layout HTTP/1.1" 200 -
+2026-07-09 23:01:58,970 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:58] "GET /_favicon.ico?v=4.4.0 HTTP/1.1" 200 -
+2026-07-09 23:01:58,984 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:58] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-09 23:01:58,986 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:58] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-09 23:01:59,111 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:59] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-09 23:01:59,119 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:59] "GET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+2026-07-09 23:01:59,124 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:59] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+2026-07-09 23:01:59,225 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:59] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-09 23:01:59,831 - INFO - 127.0.0.1 - - [09/Jul/2026 23:01:59] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+2026-07-09 23:02:01,569 - INFO - 127.0.0.1 - - [09/Jul/2026 23:02:01] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-09 23:02:07,644 - INFO - 127.0.0.1 - - [09/Jul/2026 23:02:07] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-09 23:02:08,493 - INFO - 127.0.0.1 - - [09/Jul/2026 23:02:08] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-09 23:02:53,040 - INFO - 127.0.0.1 - - [09/Jul/2026 23:02:53] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-09 23:02:53,843 - INFO - 127.0.0.1 - - [09/Jul/2026 23:02:53] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-09 23:03:13,700 - INFO - 127.0.0.1 - - [09/Jul/2026 23:03:13] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-09 23:03:14,578 - INFO - 127.0.0.1 - - [09/Jul/2026 23:03:14] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 03:16:25,233 - INFO - 127.0.0.1 - - [10/Jul/2026 03:16:25] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 03:16:25,257 - INFO - 127.0.0.1 - - [10/Jul/2026 03:16:25] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 12:42:05,023 - INFO - 127.0.0.1 - - [10/Jul/2026 12:42:05] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 12:42:28,184 - INFO - Starting the zip file update check.
+2026-07-10 12:42:28,542 - INFO - No update needed for 2020.zip
+2026-07-10 12:42:28,716 - INFO - No update needed for 2021.zip
+2026-07-10 12:42:28,886 - INFO - No update needed for 2022.zip
+2026-07-10 12:42:29,073 - INFO - No update needed for 2023.zip
+2026-07-10 12:42:29,270 - INFO - No update needed for 2024.zip
+2026-07-10 12:42:29,442 - INFO - No update needed for 2025.zip
+2026-07-10 12:42:29,442 - INFO - No updates detected for any years.
+2026-07-10 16:47:19,733 - INFO - Starting the zip file update check.
+2026-07-10 16:47:20,979 - INFO - No update needed for 2020.zip
+2026-07-10 16:47:21,235 - INFO - No update needed for 2021.zip
+2026-07-10 16:47:22,088 - INFO - No update needed for 2022.zip
+2026-07-10 16:47:22,303 - INFO - No update needed for 2023.zip
+2026-07-10 16:47:22,509 - INFO - No update needed for 2024.zip
+2026-07-10 16:47:22,744 - INFO - No update needed for 2025.zip
+2026-07-10 16:47:22,745 - INFO - No updates detected for any years.
+2026-07-10 20:48:15,171 - INFO - Starting the zip file update check.
+2026-07-10 21:31:48,109 - INFO - No update needed for 2020.zip
+2026-07-10 21:31:48,931 - INFO - No update needed for 2021.zip
+2026-07-10 21:31:49,674 - INFO - No update needed for 2022.zip
+2026-07-10 21:31:50,340 - INFO - No update needed for 2023.zip
+2026-07-10 21:31:50,905 - INFO - No update needed for 2024.zip
+2026-07-10 21:31:51,464 - INFO - Updating: 2025.zip
+2026-07-10 21:31:53,324 - INFO - 127.0.0.1 - - [10/Jul/2026 21:31:53] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 21:31:59,655 - INFO - Updated years: 2025
+2026-07-10 21:32:01,207 - ERROR - Failed to send email notification: (334, b'UGFzc3dvcmQ6')
+2026-07-10 21:35:57,989 - INFO - 127.0.0.1 - - [10/Jul/2026 21:35:57] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 21:36:08,731 - INFO - 127.0.0.1 - - [10/Jul/2026 21:36:08] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 21:36:09,750 - INFO - 127.0.0.1 - - [10/Jul/2026 21:36:09] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 21:36:39,990 - INFO - 127.0.0.1 - - [10/Jul/2026 21:36:39] "GET / HTTP/1.1" 200 -
+2026-07-10 21:36:40,208 - INFO - 127.0.0.1 - - [10/Jul/2026 21:36:40] "GET /_dash-layout HTTP/1.1" 200 -
+2026-07-10 21:36:40,215 - INFO - 127.0.0.1 - - [10/Jul/2026 21:36:40] "GET /_dash-dependencies HTTP/1.1" 200 -
+2026-07-10 21:36:40,244 - INFO - 127.0.0.1 - - [10/Jul/2026 21:36:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 21:36:40,245 - INFO - 127.0.0.1 - - [10/Jul/2026 21:36:40] "GET /_favicon.ico?v=4.4.0 HTTP/1.1" 200 -
+2026-07-10 21:36:40,251 - INFO - 127.0.0.1 - - [10/Jul/2026 21:36:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 21:36:40,286 - INFO - 127.0.0.1 - - [10/Jul/2026 21:36:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 21:36:40,463 - INFO - 127.0.0.1 - - [10/Jul/2026 21:36:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 21:36:40,531 - INFO - 127.0.0.1 - - [10/Jul/2026 21:36:40] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2026-07-10 21:36:40,590 - INFO - 127.0.0.1 - - [10/Jul/2026 21:36:40] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2026-07-10 21:36:41,205 - INFO - 127.0.0.1 - - [10/Jul/2026 21:36:41] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2026-07-10 21:36:41,518 - INFO - 127.0.0.1 - - [10/Jul/2026 21:36:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 21:36:49,225 - INFO - 127.0.0.1 - - [10/Jul/2026 21:36:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 21:36:50,073 - INFO - 127.0.0.1 - - [10/Jul/2026 21:36:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 21:37:28,283 - INFO - 127.0.0.1 - - [10/Jul/2026 21:37:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 21:37:29,161 - INFO - 127.0.0.1 - - [10/Jul/2026 21:37:29] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 21:37:44,077 - INFO - 127.0.0.1 - - [10/Jul/2026 21:37:44] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 21:37:44,918 - INFO - 127.0.0.1 - - [10/Jul/2026 21:37:44] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 21:37:51,386 - INFO - 127.0.0.1 - - [10/Jul/2026 21:37:51] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 21:37:51,390 - INFO - 127.0.0.1 - - [10/Jul/2026 21:37:51] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 21:37:51,408 - INFO - 127.0.0.1 - - [10/Jul/2026 21:37:51] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 21:37:51,488 - INFO - 127.0.0.1 - - [10/Jul/2026 21:37:51] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-10 22:32:00,851 - INFO - Starting the zip file update check.
+2026-07-10 22:32:01,218 - INFO - No update needed for 2020.zip
+2026-07-10 22:32:01,395 - INFO - No update needed for 2021.zip
+2026-07-10 22:32:01,568 - INFO - No update needed for 2022.zip
+2026-07-10 22:32:01,751 - INFO - No update needed for 2023.zip
+2026-07-10 22:32:01,927 - INFO - No update needed for 2024.zip
+2026-07-10 22:32:02,112 - INFO - No update needed for 2025.zip
+2026-07-10 22:32:02,112 - INFO - No updates detected for any years.
+2026-07-10 22:39:28,672 - INFO - 127.0.0.1 - - [10/Jul/2026 22:39:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-11 16:08:48,400 - INFO - Starting the zip file update check.
+2026-07-11 16:08:50,595 - INFO - 127.0.0.1 - - [11/Jul/2026 16:08:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-11 16:08:51,891 - INFO - No update needed for 2020.zip
+2026-07-11 16:08:52,383 - INFO - No update needed for 2021.zip
+2026-07-11 16:08:52,708 - INFO - No update needed for 2022.zip
+2026-07-11 16:08:53,053 - INFO - No update needed for 2023.zip
+2026-07-11 16:08:53,238 - INFO - No update needed for 2024.zip
+2026-07-11 16:08:53,457 - INFO - No update needed for 2025.zip
+2026-07-11 16:08:53,459 - INFO - No updates detected for any years.
+2026-07-11 16:08:57,097 - INFO - 127.0.0.1 - - [11/Jul/2026 16:08:57] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-12 02:39:29,524 - INFO - Starting the zip file update check.
+2026-07-12 02:39:30,783 - INFO - No update needed for 2020.zip
+2026-07-12 02:39:31,214 - INFO - No update needed for 2021.zip
+2026-07-12 02:39:31,642 - INFO - No update needed for 2022.zip
+2026-07-12 02:39:32,327 - INFO - 127.0.0.1 - - [12/Jul/2026 02:39:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-12 02:39:32,736 - INFO - No update needed for 2023.zip
+2026-07-12 02:39:33,037 - INFO - No update needed for 2024.zip
+2026-07-12 02:39:33,326 - INFO - No update needed for 2025.zip
+2026-07-12 02:39:33,333 - INFO - No updates detected for any years.
+2026-07-12 10:59:26,175 - INFO - Starting the zip file update check.
+2026-07-12 10:59:28,894 - INFO - No update needed for 2020.zip
+2026-07-12 10:59:29,189 - INFO - No update needed for 2021.zip
+2026-07-12 10:59:29,759 - INFO - No update needed for 2022.zip
+2026-07-12 11:27:46,707 - INFO - 127.0.0.1 - - [12/Jul/2026 11:27:46] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:36:03,310 - INFO - 127.0.0.1 - - [13/Jul/2026 18:36:03] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:39:08,661 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:08] "GET /datatable HTTP/1.1" 200 -
+2026-07-13 18:39:08,812 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:08] "GET /_dash-layout HTTP/1.1" 200 -
+2026-07-13 18:39:08,824 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:08] "GET /_dash-dependencies HTTP/1.1" 200 -
+2026-07-13 18:39:08,857 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:08] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:39:08,877 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:08] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:39:08,881 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:08] "GET /_favicon.ico?v=4.4.0 HTTP/1.1" 200 -
+2026-07-13 18:39:08,903 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:08] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:39:09,071 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:09] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:39:09,188 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:09] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2026-07-13 18:39:11,893 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:11] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:39:11,897 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:11] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:39:11,937 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:11] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:39:12,053 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:12] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2026-07-13 18:39:12,426 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:12] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:39:13,225 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:13] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2026-07-13 18:39:14,357 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:14] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:39:18,522 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:18] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:39:20,818 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:20] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:39:28,548 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:39:30,531 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:39:59,366 - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\backends\_flask.py", line 264, in _dispatch
+    response_data = ctx.run(partial_func)
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\_callback.py", line 784, in add_context
+    raise err
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\_callback.py", line 775, in add_context
+    output_value = _invoke_callback(func, *func_args, **func_kwargs)  # type: ignore[reportArgumentType]
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\_callback.py", line 59, in _invoke_callback
+    return func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\Marco\Documents\GitHub\CFTC-COT-Report\src\app_cftc.py", line 88, in create_z_score_plot
+    z_score_list_one_year_non_comm = CFTC.get_list_of_z_scores(list_of_i_and_date, 1, diff_non_comm)
+                                                               ^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'list_of_i_and_date' where it is not associated with a value
+2026-07-13 18:39:59,395 - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\backends\_flask.py", line 264, in _dispatch
+    response_data = ctx.run(partial_func)
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\_callback.py", line 784, in add_context
+    raise err
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\_callback.py", line 775, in add_context
+    output_value = _invoke_callback(func, *func_args, **func_kwargs)  # type: ignore[reportArgumentType]
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\dash\_callback.py", line 59, in _invoke_callback
+    return func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\Marco\Documents\GitHub\CFTC-COT-Report\src\app_cftc.py", line 198, in get_cftc_positioning
+    df.columns = ['class', 'latest', 'w/w change', '3m ave', '6m ave', '1y ave', '3y ave', '3y max', '3y min', '1y zscore', '3y zscore']
+    ^^^^^^^^^^
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\generic.py", line 6313, in __setattr__
+    return object.__setattr__(self, name, value)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "properties.pyx", line 69, in pandas._libs.properties.AxisProperty.__set__
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\generic.py", line 814, in _set_axis
+    self._mgr.set_axis(axis, labels)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\internals\managers.py", line 238, in set_axis
+    self._validate_set_axis(axis, new_labels)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\internals\base.py", line 98, in _validate_set_axis
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Length mismatch: Expected axis has 0 elements, new values have 11 elements
+2026-07-13 18:39:59,515 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:59] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-07-13 18:39:59,651 - INFO - 127.0.0.1 - - [13/Jul/2026 18:39:59] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-07-13 18:40:02,785 - INFO - 127.0.0.1 - - [13/Jul/2026 18:40:02] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:40:04,616 - INFO - 127.0.0.1 - - [13/Jul/2026 18:40:04] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:40:23,144 - INFO - 127.0.0.1 - - [13/Jul/2026 18:40:23] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:40:24,957 - INFO - 127.0.0.1 - - [13/Jul/2026 18:40:24] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:40:28,181 - INFO - 127.0.0.1 - - [13/Jul/2026 18:40:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 18:40:30,101 - INFO - 127.0.0.1 - - [13/Jul/2026 18:40:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-13 22:43:27,309 - INFO - 127.0.0.1 - - [13/Jul/2026 22:43:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-14 02:47:22,531 - INFO - 127.0.0.1 - - [14/Jul/2026 02:47:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-14 04:49:14,018 - INFO - 127.0.0.1 - - [14/Jul/2026 04:49:14] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-14 08:49:14,867 - INFO - 127.0.0.1 - - [14/Jul/2026 08:49:14] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-14 10:52:36,174 - INFO - 127.0.0.1 - - [14/Jul/2026 10:52:36] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-14 13:24:48,983 - INFO - 127.0.0.1 - - [14/Jul/2026 13:24:48] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-14 14:27:54,405 - INFO - 127.0.0.1 - - [14/Jul/2026 14:27:54] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-14 15:40:15,213 - INFO - 127.0.0.1 - - [14/Jul/2026 15:40:15] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-14 17:40:37,946 - INFO - 127.0.0.1 - - [14/Jul/2026 17:40:37] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-14 18:57:03,935 - INFO - 127.0.0.1 - - [14/Jul/2026 18:57:03] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-15 03:15:18,562 - INFO - 127.0.0.1 - - [15/Jul/2026 03:15:18] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-07-15 03:42:56,463 - INFO - 127.0.0.1 - - [15/Jul/2026 03:42:56] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 21:58:22,109 - INFO - No update needed for 2020.zip
+2026-08-04 21:58:22,860 - INFO - No update needed for 2021.zip
+2026-08-04 21:58:23,121 - INFO - No update needed for 2022.zip
+2026-08-04 21:58:23,371 - INFO - No update needed for 2023.zip
+2026-08-04 21:58:23,593 - INFO - No update needed for 2024.zip
+2026-08-04 21:58:23,806 - INFO - Updating: 2025.zip
+2026-08-04 21:58:30,423 - INFO - Updated years: 2025
+2026-08-04 21:58:31,264 - ERROR - Failed to send email notification: (334, b'UGFzc3dvcmQ6')
+2026-08-04 21:59:01,797 - INFO - Dash is running on http://0.0.0.0:5000/
+
+2026-08-04 21:59:02,052 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.40:5000
+2026-08-04 21:59:02,053 - INFO - [33mPress CTRL+C to quit[0m
+2026-08-04 21:59:03,320 - INFO - Starting the zip file update check.
+2026-08-04 21:59:03,658 - INFO - No update needed for 2020.zip
+2026-08-04 21:59:03,887 - INFO - No update needed for 2021.zip
+2026-08-04 21:59:04,153 - INFO - No update needed for 2022.zip
+2026-08-04 21:59:04,399 - INFO - No update needed for 2023.zip
+2026-08-04 21:59:04,586 - INFO - No update needed for 2024.zip
+2026-08-04 21:59:04,769 - INFO - No update needed for 2025.zip
+2026-08-04 21:59:04,769 - INFO - No updates detected for any years.
+2026-08-04 21:59:50,738 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:50] "GET /datatable HTTP/1.1" 200 -
+2026-08-04 21:59:51,250 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:51] "GET /_dash-component-suites/dash/deps/prop-types@15.v4_4_0m1783244462.8.1.min.js HTTP/1.1" 200 -
+2026-08-04 21:59:51,275 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:51] "GET /_dash-component-suites/dash/deps/react@18.v4_4_0m1783244462.3.1.min.js HTTP/1.1" 200 -
+2026-08-04 21:59:51,281 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:51] "GET /_dash-component-suites/dash/deps/polyfill@7.v4_4_0m1783244462.12.1.min.js HTTP/1.1" 200 -
+2026-08-04 21:59:51,457 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:51] "GET /_dash-component-suites/dash/html/dash_html_components.v4_4_0m1783244462.min.js HTTP/1.1" 200 -
+2026-08-04 21:59:51,534 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:51] "GET /_dash-component-suites/dash/deps/react-dom@18.v4_4_0m1783244462.3.1.min.js HTTP/1.1" 200 -
+2026-08-04 21:59:51,669 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:51] "GET /_dash-component-suites/dash/dcc/dash_core_components-shared.v4_4_0m1783244462.js HTTP/1.1" 200 -
+2026-08-04 21:59:51,683 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:51] "GET /_dash-component-suites/dash_bootstrap_components/_components/dash_bootstrap_components.v2_0_4m1783244933.min.js HTTP/1.1" 200 -
+2026-08-04 21:59:51,734 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:51] "GET /_dash-component-suites/dash/dash_table/bundle.v7_4_0m1783244462.js HTTP/1.1" 200 -
+2026-08-04 21:59:52,181 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:52] "GET /_dash-component-suites/dash/dcc/dash_core_components.v4_4_0m1783244462.js HTTP/1.1" 200 -
+2026-08-04 21:59:52,634 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:52] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v4_4_0m1783244462.min.js HTTP/1.1" 200 -
+2026-08-04 21:59:52,729 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:52] "GET /_dash-layout HTTP/1.1" 200 -
+2026-08-04 21:59:52,730 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:52] "GET /_dash-dependencies HTTP/1.1" 200 -
+2026-08-04 21:59:52,786 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:52] "GET /_favicon.ico?v=4.4.0 HTTP/1.1" 200 -
+2026-08-04 21:59:52,930 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 21:59:52,932 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 21:59:53,019 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:53] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 21:59:53,089 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:53] "GET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+2026-08-04 21:59:53,112 - INFO - 127.0.0.1 - - [04/Aug/2026 21:59:53] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:00:06,438 - INFO - 127.0.0.1 - - [04/Aug/2026 22:00:06] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:00:11,247 - INFO - 127.0.0.1 - - [04/Aug/2026 22:00:11] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:00:16,445 - INFO - 127.0.0.1 - - [04/Aug/2026 22:00:16] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:00:23,081 - INFO - 127.0.0.1 - - [04/Aug/2026 22:00:23] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:00:28,842 - INFO - 127.0.0.1 - - [04/Aug/2026 22:00:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:00:31,278 - INFO - 127.0.0.1 - - [04/Aug/2026 22:00:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:00:54,449 - INFO - 127.0.0.1 - - [04/Aug/2026 22:00:54] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:00:54,460 - INFO - 127.0.0.1 - - [04/Aug/2026 22:00:54] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:00:54,548 - INFO - 127.0.0.1 - - [04/Aug/2026 22:00:54] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:00:54,558 - INFO - 127.0.0.1 - - [04/Aug/2026 22:00:54] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+2026-08-04 22:00:54,802 - INFO - 127.0.0.1 - - [04/Aug/2026 22:00:54] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:00:55,417 - INFO - 127.0.0.1 - - [04/Aug/2026 22:00:55] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+2026-08-04 22:00:58,661 - INFO - 127.0.0.1 - - [04/Aug/2026 22:00:58] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:01:07,304 - INFO - 127.0.0.1 - - [04/Aug/2026 22:01:07] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:01:07,311 - INFO - 127.0.0.1 - - [04/Aug/2026 22:01:07] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:01:07,333 - INFO - 127.0.0.1 - - [04/Aug/2026 22:01:07] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:01:07,381 - INFO - 127.0.0.1 - - [04/Aug/2026 22:01:07] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:01:13,832 - INFO - 127.0.0.1 - - [04/Aug/2026 22:01:13] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:01:17,939 - INFO - 127.0.0.1 - - [04/Aug/2026 22:01:17] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:01:18,667 - INFO - 127.0.0.1 - - [04/Aug/2026 22:01:18] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:01:20,267 - INFO - 127.0.0.1 - - [04/Aug/2026 22:01:20] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:01:20,741 - INFO - 127.0.0.1 - - [04/Aug/2026 22:01:20] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:01:26,326 - INFO - 127.0.0.1 - - [04/Aug/2026 22:01:26] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:01:27,344 - INFO - 127.0.0.1 - - [04/Aug/2026 22:01:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:01:32,790 - INFO - 127.0.0.1 - - [04/Aug/2026 22:01:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:01:35,010 - INFO - 127.0.0.1 - - [04/Aug/2026 22:01:35] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:01:35,945 - INFO - 127.0.0.1 - - [04/Aug/2026 22:01:35] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:01:41,118 - INFO - 127.0.0.1 - - [04/Aug/2026 22:01:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-04 22:59:04,656 - INFO - Starting the zip file update check.
+2026-08-04 22:59:05,065 - INFO - No update needed for 2020.zip
+2026-08-04 22:59:05,235 - INFO - No update needed for 2021.zip
+2026-08-04 22:59:05,421 - INFO - No update needed for 2022.zip
+2026-08-04 22:59:05,594 - INFO - No update needed for 2023.zip
+2026-08-04 22:59:05,762 - INFO - No update needed for 2024.zip
+2026-08-04 22:59:05,933 - INFO - No update needed for 2025.zip
+2026-08-04 22:59:05,933 - INFO - No updates detected for any years.
+2026-08-05 12:52:19,721 - INFO - Starting the zip file update check.
+2026-08-05 12:52:21,822 - INFO - No update needed for 2020.zip
+2026-08-05 12:52:22,252 - INFO - No update needed for 2021.zip
+2026-08-05 12:52:22,735 - INFO - No update needed for 2022.zip
+2026-08-05 12:52:23,236 - INFO - No update needed for 2023.zip
+2026-08-05 12:52:24,285 - INFO - No update needed for 2024.zip
+2026-08-05 12:52:24,552 - INFO - No update needed for 2025.zip
+2026-08-05 12:52:24,557 - INFO - No updates detected for any years.
+2026-08-05 19:14:42,234 - INFO - Starting the zip file update check.
+2026-08-05 19:14:52,908 - INFO - No update needed for 2020.zip
+2026-08-05 19:14:53,406 - INFO - No update needed for 2021.zip
+2026-08-05 19:14:53,657 - INFO - No update needed for 2022.zip
+2026-08-05 19:14:54,884 - INFO - No update needed for 2023.zip
+2026-08-05 19:14:55,284 - INFO - No update needed for 2024.zip
+2026-08-05 19:14:55,579 - INFO - No update needed for 2025.zip
+2026-08-05 19:14:55,890 - INFO - No updates detected for any years.
+2026-08-05 22:47:48,920 - INFO - Starting the zip file update check.
+2026-08-05 22:47:49,895 - INFO - No update needed for 2020.zip
+2026-08-05 22:47:50,364 - INFO - No update needed for 2021.zip
+2026-08-05 22:47:50,688 - INFO - No update needed for 2022.zip
+2026-08-05 22:47:51,198 - INFO - No update needed for 2023.zip
+2026-08-05 22:47:51,742 - INFO - No update needed for 2024.zip
+2026-08-05 22:47:52,385 - INFO - No update needed for 2025.zip
+2026-08-05 22:47:52,385 - INFO - No updates detected for any years.
+2026-08-06 13:08:08,295 - INFO - Starting the zip file update check.
+2026-08-06 13:08:11,938 - INFO - No update needed for 2020.zip
+2026-08-06 13:08:12,451 - INFO - No update needed for 2021.zip
+2026-08-06 13:08:12,823 - INFO - No update needed for 2022.zip
+2026-08-06 13:08:13,782 - INFO - No update needed for 2023.zip
+2026-08-06 13:08:14,342 - INFO - No update needed for 2024.zip
+2026-08-06 13:08:14,645 - INFO - No update needed for 2025.zip
+2026-08-06 13:08:14,654 - INFO - No updates detected for any years.
+2026-08-06 19:01:17,186 - INFO - Starting the zip file update check.
+2026-08-06 19:01:17,554 - INFO - No update needed for 2020.zip
+2026-08-06 19:01:17,884 - INFO - No update needed for 2021.zip
+2026-08-06 19:01:18,539 - INFO - No update needed for 2022.zip
+2026-08-06 19:01:18,949 - INFO - No update needed for 2023.zip
+2026-08-06 19:01:19,471 - INFO - No update needed for 2024.zip
+2026-08-06 19:01:19,689 - INFO - No update needed for 2025.zip
+2026-08-06 19:01:19,689 - INFO - No updates detected for any years.
+2026-08-07 01:54:34,701 - INFO - Starting the zip file update check.
+2026-08-07 01:54:39,815 - INFO - No update needed for 2020.zip
+2026-08-07 01:54:40,334 - INFO - No update needed for 2021.zip
+2026-08-07 01:54:40,607 - INFO - No update needed for 2022.zip
+2026-08-07 01:54:41,000 - INFO - No update needed for 2023.zip
+2026-08-07 01:54:41,487 - INFO - No update needed for 2024.zip
+2026-08-07 01:54:41,758 - INFO - No update needed for 2025.zip
+2026-08-07 01:54:41,788 - INFO - No updates detected for any years.
+2026-08-07 06:27:01,819 - INFO - Starting the zip file update check.
+2026-08-07 06:27:03,034 - INFO - No update needed for 2020.zip
+2026-08-07 06:27:04,612 - INFO - No update needed for 2021.zip
+2026-08-07 06:27:05,248 - INFO - No update needed for 2022.zip
+2026-08-07 06:27:05,796 - INFO - No update needed for 2023.zip
+2026-08-07 06:27:06,054 - INFO - No update needed for 2024.zip
+2026-08-07 06:27:06,361 - INFO - No update needed for 2025.zip
+2026-08-07 06:27:06,452 - INFO - No updates detected for any years.
+2026-08-07 16:10:01,000 - INFO - Starting the zip file update check.
+2026-08-07 16:10:02,017 - INFO - No update needed for 2020.zip
+2026-08-07 16:10:02,841 - INFO - No update needed for 2021.zip
+2026-08-07 16:10:04,056 - INFO - No update needed for 2022.zip
+2026-08-07 16:10:04,602 - INFO - No update needed for 2023.zip
+2026-08-07 16:10:05,223 - INFO - No update needed for 2024.zip
+2026-08-07 16:10:05,671 - INFO - No update needed for 2025.zip
+2026-08-07 16:10:05,685 - INFO - No updates detected for any years.
+2026-08-08 06:55:34,109 - INFO - Starting the zip file update check.
+2026-08-08 06:55:34,603 - INFO - No update needed for 2020.zip
+2026-08-08 06:55:34,832 - INFO - No update needed for 2021.zip
+2026-08-08 06:55:35,635 - INFO - No update needed for 2022.zip
+2026-08-08 06:55:35,983 - INFO - No update needed for 2023.zip
+2026-08-08 06:55:36,216 - INFO - No update needed for 2024.zip
+2026-08-08 06:55:36,485 - INFO - Updating: 2025.zip
+2026-08-08 06:55:44,037 - INFO - Updated years: 2025
+2026-08-08 06:55:44,978 - ERROR - Failed to send email notification: (334, b'UGFzc3dvcmQ6')
+2026-08-08 12:59:42,295 - INFO - Starting the zip file update check.
+2026-08-08 12:59:42,628 - INFO - No update needed for 2020.zip
+2026-08-08 12:59:42,835 - INFO - No update needed for 2021.zip
+2026-08-08 12:59:43,018 - INFO - No update needed for 2022.zip
+2026-08-08 12:59:43,202 - INFO - No update needed for 2023.zip
+2026-08-08 12:59:43,385 - INFO - No update needed for 2024.zip
+2026-08-08 12:59:43,563 - INFO - No update needed for 2025.zip
+2026-08-08 12:59:43,565 - INFO - No updates detected for any years.
+2026-08-08 13:59:43,589 - INFO - Starting the zip file update check.
+2026-08-08 13:59:43,844 - INFO - No update needed for 2020.zip
+2026-08-08 13:59:44,031 - INFO - No update needed for 2021.zip
+2026-08-08 13:59:44,281 - INFO - No update needed for 2022.zip
+2026-08-08 13:59:44,482 - INFO - No update needed for 2023.zip
+2026-08-08 13:59:44,687 - INFO - No update needed for 2024.zip
+2026-08-08 13:59:44,882 - INFO - No update needed for 2025.zip
+2026-08-08 13:59:44,883 - INFO - No updates detected for any years.
+2026-08-08 14:59:44,902 - INFO - Starting the zip file update check.
+2026-08-08 14:59:45,155 - INFO - No update needed for 2020.zip
+2026-08-08 14:59:45,325 - INFO - No update needed for 2021.zip
+2026-08-08 14:59:45,512 - INFO - No update needed for 2022.zip
+2026-08-08 14:59:45,702 - INFO - No update needed for 2023.zip
+2026-08-08 14:59:45,881 - INFO - No update needed for 2024.zip
+2026-08-08 14:59:46,065 - INFO - No update needed for 2025.zip
+2026-08-08 14:59:46,065 - INFO - No updates detected for any years.
+2026-08-08 16:10:16,113 - INFO - Starting the zip file update check.
+2026-08-08 16:10:16,392 - INFO - No update needed for 2020.zip
+2026-08-08 16:10:16,577 - INFO - No update needed for 2021.zip
+2026-08-08 16:10:16,794 - INFO - No update needed for 2022.zip
+2026-08-08 16:10:17,175 - INFO - No update needed for 2023.zip
+2026-08-08 16:10:17,562 - INFO - No update needed for 2024.zip
+2026-08-08 16:10:17,941 - INFO - No update needed for 2025.zip
+2026-08-08 16:10:17,941 - INFO - No updates detected for any years.
+2026-08-08 16:37:36,868 - INFO - 127.0.0.1 - - [08/Aug/2026 16:37:36] "GET /datatable HTTP/1.1" 200 -
+2026-08-08 16:37:37,073 - INFO - 127.0.0.1 - - [08/Aug/2026 16:37:37] "GET /_dash-dependencies HTTP/1.1" 200 -
+2026-08-08 16:37:37,084 - INFO - 127.0.0.1 - - [08/Aug/2026 16:37:37] "GET /_dash-layout HTTP/1.1" 200 -
+2026-08-08 16:37:37,139 - INFO - 127.0.0.1 - - [08/Aug/2026 16:37:37] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-08 16:37:37,145 - INFO - 127.0.0.1 - - [08/Aug/2026 16:37:37] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-08 16:37:37,182 - INFO - 127.0.0.1 - - [08/Aug/2026 16:37:37] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-08 16:37:37,389 - INFO - 127.0.0.1 - - [08/Aug/2026 16:37:37] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-08 16:37:37,645 - INFO - 127.0.0.1 - - [08/Aug/2026 16:37:37] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2026-08-08 16:37:47,977 - INFO - 127.0.0.1 - - [08/Aug/2026 16:37:47] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-08 16:37:48,855 - INFO - 127.0.0.1 - - [08/Aug/2026 16:37:48] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-08 16:37:49,373 - INFO - 127.0.0.1 - - [08/Aug/2026 16:37:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-08 16:37:50,248 - INFO - 127.0.0.1 - - [08/Aug/2026 16:37:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-08 16:37:52,481 - INFO - 127.0.0.1 - - [08/Aug/2026 16:37:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-08 16:37:56,964 - INFO - 127.0.0.1 - - [08/Aug/2026 16:37:56] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-08 16:37:57,701 - INFO - 127.0.0.1 - - [08/Aug/2026 16:37:57] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-08 16:38:00,466 - INFO - 127.0.0.1 - - [08/Aug/2026 16:38:00] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-08 16:38:03,414 - INFO - 127.0.0.1 - - [08/Aug/2026 16:38:03] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-08 16:38:05,811 - INFO - 127.0.0.1 - - [08/Aug/2026 16:38:05] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-08 16:38:06,425 - INFO - 127.0.0.1 - - [08/Aug/2026 16:38:06] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-08 16:38:08,327 - INFO - 127.0.0.1 - - [08/Aug/2026 16:38:08] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-08 16:38:09,501 - INFO - 127.0.0.1 - - [08/Aug/2026 16:38:09] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-08-08 20:37:06,398 - INFO - Starting the zip file update check.
+2026-08-08 22:25:32,761 - INFO - No update needed for 2020.zip
+2026-08-08 22:25:33,850 - INFO - No update needed for 2021.zip
+2026-08-08 22:25:34,677 - INFO - No update needed for 2022.zip
+2026-08-08 22:25:35,175 - INFO - No update needed for 2023.zip
+2026-08-08 22:25:35,676 - INFO - No update needed for 2024.zip
+2026-08-08 22:25:35,964 - INFO - No update needed for 2025.zip
+2026-08-08 22:25:35,983 - INFO - No updates detected for any years.
+2026-08-09 10:43:32,538 - INFO - Starting the zip file update check.
+2026-08-09 10:43:33,012 - INFO - No update needed for 2020.zip
+2026-08-09 10:43:33,212 - INFO - No update needed for 2021.zip
+2026-08-09 10:43:33,380 - INFO - No update needed for 2022.zip
+2026-08-09 10:43:33,558 - INFO - No update needed for 2023.zip
+2026-08-09 10:43:33,733 - INFO - No update needed for 2024.zip
+2026-08-09 10:43:33,908 - INFO - No update needed for 2025.zip
+2026-08-09 10:43:33,909 - INFO - No updates detected for any years.
+2026-08-09 11:43:33,942 - INFO - Starting the zip file update check.
+2026-08-09 11:43:34,239 - INFO - No update needed for 2020.zip
+2026-08-09 11:43:34,436 - INFO - No update needed for 2021.zip
+2026-08-09 11:43:34,625 - INFO - No update needed for 2022.zip
+2026-08-09 11:43:34,819 - INFO - No update needed for 2023.zip
+2026-08-09 11:43:35,009 - INFO - No update needed for 2024.zip
+2026-08-09 11:43:35,208 - INFO - No update needed for 2025.zip
+2026-08-09 11:43:35,208 - INFO - No updates detected for any years.
+2026-08-10 13:33:05,987 - INFO - Starting the zip file update check.
+2026-08-10 13:33:06,285 - INFO - No update needed for 2020.zip
+2026-08-10 13:33:06,472 - INFO - No update needed for 2021.zip
+2026-08-10 13:33:06,657 - INFO - No update needed for 2022.zip
+2026-08-10 13:33:06,834 - INFO - No update needed for 2023.zip
+2026-08-10 13:33:07,025 - INFO - No update needed for 2024.zip
+2026-08-10 13:33:07,220 - INFO - No update needed for 2025.zip
+2026-08-10 13:33:07,220 - INFO - No updates detected for any years.
+2026-08-10 17:58:47,311 - INFO - Starting the zip file update check.
+2026-08-10 17:58:47,585 - INFO - No update needed for 2020.zip
+2026-08-10 17:58:47,763 - INFO - No update needed for 2021.zip
+2026-08-10 17:58:47,947 - INFO - No update needed for 2022.zip
+2026-08-10 17:58:48,148 - INFO - No update needed for 2023.zip
+2026-08-10 17:58:48,324 - INFO - No update needed for 2024.zip
+2026-08-10 17:58:48,512 - INFO - No update needed for 2025.zip
+2026-08-10 17:58:48,512 - INFO - No updates detected for any years.
+2026-08-10 19:18:41,623 - INFO - Starting the zip file update check.
+2026-08-10 19:18:41,882 - INFO - No update needed for 2020.zip
+2026-08-10 19:18:42,104 - INFO - No update needed for 2021.zip
+2026-08-10 19:18:42,305 - INFO - No update needed for 2022.zip
+2026-08-10 19:18:42,504 - INFO - No update needed for 2023.zip
+2026-08-10 19:18:42,702 - INFO - No update needed for 2024.zip
+2026-08-10 19:18:42,885 - INFO - No update needed for 2025.zip
+2026-08-10 19:18:42,885 - INFO - No updates detected for any years.
+2026-08-10 22:53:12,299 - INFO - Starting the zip file update check.
+2026-08-10 22:53:12,569 - INFO - No update needed for 2020.zip
+2026-08-10 22:53:12,815 - INFO - No update needed for 2021.zip
+2026-08-10 22:53:13,086 - INFO - No update needed for 2022.zip
+2026-08-10 22:53:13,344 - INFO - No update needed for 2023.zip
+2026-08-10 22:53:13,848 - INFO - No update needed for 2024.zip
+2026-08-10 22:53:14,069 - INFO - No update needed for 2025.zip
+2026-08-10 22:53:14,069 - INFO - No updates detected for any years.
+2026-08-11 14:23:06,260 - INFO - Starting the zip file update check.
+2026-08-11 14:24:01,247 - INFO - No update needed for 2020.zip
+2026-08-11 14:24:01,915 - INFO - No update needed for 2021.zip
+2026-08-11 14:24:02,326 - INFO - No update needed for 2022.zip
+2026-08-11 14:24:02,631 - INFO - No update needed for 2023.zip
+2026-08-11 14:24:02,933 - INFO - No update needed for 2024.zip
+2026-08-11 14:24:03,202 - INFO - No update needed for 2025.zip
+2026-08-11 14:24:03,247 - INFO - No updates detected for any years.
+2026-08-11 15:24:03,374 - INFO - Starting the zip file update check.
+2026-08-11 15:24:03,784 - INFO - No update needed for 2020.zip
+2026-08-11 15:24:04,164 - INFO - No update needed for 2021.zip
+2026-08-11 15:24:04,341 - INFO - No update needed for 2022.zip
+2026-08-11 15:24:04,743 - INFO - No update needed for 2023.zip
+2026-08-11 15:24:04,917 - INFO - No update needed for 2024.zip
+2026-08-11 15:24:05,280 - INFO - No update needed for 2025.zip
+2026-08-11 15:24:05,280 - INFO - No updates detected for any years.
+2026-08-11 17:13:07,745 - INFO - Starting the zip file update check.
+2026-08-11 17:13:08,039 - INFO - No update needed for 2020.zip
+2026-08-11 17:13:08,232 - INFO - No update needed for 2021.zip
+2026-08-11 17:13:08,429 - INFO - No update needed for 2022.zip
+2026-08-11 17:13:08,628 - INFO - No update needed for 2023.zip
+2026-08-11 17:13:08,831 - INFO - No update needed for 2024.zip
+2026-08-11 17:13:09,041 - INFO - No update needed for 2025.zip
+2026-08-11 17:13:09,042 - INFO - No updates detected for any years.
+2026-08-11 21:03:39,929 - INFO - Starting the zip file update check.
+2026-08-11 21:03:40,238 - INFO - No update needed for 2020.zip
+2026-08-11 21:03:40,472 - INFO - No update needed for 2021.zip
+2026-08-11 21:03:40,718 - INFO - No update needed for 2022.zip
+2026-08-11 21:03:40,970 - INFO - No update needed for 2023.zip
+2026-08-11 21:03:41,187 - INFO - No update needed for 2024.zip
+2026-08-11 21:03:41,401 - INFO - No update needed for 2025.zip
+2026-08-11 21:03:41,402 - INFO - No updates detected for any years.
+2026-08-11 22:20:07,536 - INFO - Starting the zip file update check.
+2026-08-11 22:20:07,825 - INFO - No update needed for 2020.zip
+2026-08-11 22:20:08,019 - INFO - No update needed for 2021.zip
+2026-08-11 22:20:08,228 - INFO - No update needed for 2022.zip
+2026-08-11 22:20:08,443 - INFO - No update needed for 2023.zip
+2026-08-11 22:20:08,653 - INFO - No update needed for 2024.zip
+2026-08-11 22:20:08,861 - INFO - No update needed for 2025.zip
+2026-08-11 22:20:08,862 - INFO - No updates detected for any years.
+2026-08-12 15:17:19,457 - INFO - Starting the zip file update check.
+2026-08-12 15:17:19,775 - INFO - No update needed for 2020.zip
+2026-08-12 15:17:19,972 - INFO - No update needed for 2021.zip
+2026-08-12 15:17:20,174 - INFO - No update needed for 2022.zip
+2026-08-12 15:17:20,370 - INFO - No update needed for 2023.zip
+2026-08-12 15:17:20,564 - INFO - No update needed for 2024.zip
+2026-08-12 15:17:20,769 - INFO - No update needed for 2025.zip
+2026-08-12 15:17:20,769 - INFO - No updates detected for any years.
+2026-08-12 16:17:20,788 - INFO - Starting the zip file update check.
+2026-08-12 16:17:21,048 - INFO - No update needed for 2020.zip
+2026-08-12 16:17:21,258 - INFO - No update needed for 2021.zip
+2026-08-12 16:17:21,456 - INFO - No update needed for 2022.zip
+2026-08-12 16:17:21,654 - INFO - No update needed for 2023.zip
+2026-08-12 16:17:21,856 - INFO - No update needed for 2024.zip
+2026-08-12 16:17:22,068 - INFO - No update needed for 2025.zip
+2026-08-12 16:17:22,070 - INFO - No updates detected for any years.
+2026-08-12 17:17:22,088 - INFO - Starting the zip file update check.
+2026-08-12 17:17:22,351 - INFO - No update needed for 2020.zip
+2026-08-12 17:17:22,555 - INFO - No update needed for 2021.zip
+2026-08-12 17:17:22,765 - INFO - No update needed for 2022.zip
+2026-08-12 17:17:22,970 - INFO - No update needed for 2023.zip
+2026-08-12 17:17:23,176 - INFO - No update needed for 2024.zip
+2026-08-12 17:17:23,372 - INFO - No update needed for 2025.zip
+2026-08-12 17:17:23,372 - INFO - No updates detected for any years.
+2026-08-12 18:17:23,394 - INFO - Starting the zip file update check.
+2026-08-12 18:17:24,079 - INFO - No update needed for 2020.zip
+2026-08-12 18:17:24,445 - INFO - No update needed for 2021.zip
+2026-08-12 18:17:24,662 - INFO - No update needed for 2022.zip
+2026-08-12 18:17:24,898 - INFO - No update needed for 2023.zip
+2026-08-12 18:17:25,124 - INFO - No update needed for 2024.zip
+2026-08-12 18:17:25,388 - INFO - No update needed for 2025.zip
+2026-08-12 18:17:25,388 - INFO - No updates detected for any years.
+2026-08-12 19:17:25,806 - INFO - Starting the zip file update check.
+2026-08-18 14:06:57,819 - INFO - No update needed for 2020.zip
+2026-08-18 14:06:58,431 - INFO - No update needed for 2021.zip
+2026-08-18 14:06:59,043 - INFO - No update needed for 2022.zip
+2026-08-18 14:06:59,546 - INFO - No update needed for 2023.zip
+2026-08-18 14:06:59,990 - INFO - No update needed for 2024.zip
+2026-08-18 14:07:00,416 - INFO - Updating: 2025.zip
+2026-08-18 14:07:08,906 - INFO - Updated years: 2025
+2026-08-18 14:07:09,725 - ERROR - Failed to send email notification: (334, b'UGFzc3dvcmQ6')
+2026-08-18 14:07:26,524 - INFO - Dash is running on http://0.0.0.0:5000/
+
+2026-08-18 14:07:26,543 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.40:5000
+2026-08-18 14:07:26,543 - INFO - [33mPress CTRL+C to quit[0m
+2026-08-18 14:07:26,852 - INFO - Starting the zip file update check.
+2026-08-18 14:07:27,268 - INFO - No update needed for 2020.zip
+2026-08-18 14:07:27,684 - INFO - No update needed for 2021.zip
+2026-08-18 14:07:28,085 - INFO - No update needed for 2022.zip
+2026-08-18 14:07:28,490 - INFO - No update needed for 2023.zip
+2026-08-18 14:07:28,908 - INFO - No update needed for 2024.zip
+2026-08-18 14:07:29,317 - INFO - No update needed for 2025.zip
+2026-08-18 14:07:29,317 - INFO - No updates detected for any years.

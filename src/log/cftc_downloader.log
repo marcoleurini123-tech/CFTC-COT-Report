@@ -1,0 +1,8 @@
+2026-07-09 22:56:01,120 - INFO - Downloading: 2020.zip
+2026-07-09 22:56:06,345 - INFO - Downloading: 2021.zip
+2026-07-09 22:56:11,337 - INFO - Downloading: 2022.zip
+2026-07-09 22:56:16,444 - INFO - Downloading: 2023.zip
+2026-07-09 22:56:21,863 - INFO - Downloading: 2024.zip
+2026-07-09 22:56:28,076 - INFO - Downloading: 2025.zip
+2026-07-09 22:56:34,062 - INFO - Updated years: 2020, 2021, 2022, 2023, 2024, 2025
+2026-07-09 22:56:34,791 - ERROR - Failed to send email notification: (334, b'UGFzc3dvcmQ6')
