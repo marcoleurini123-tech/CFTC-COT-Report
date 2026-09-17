@@ -1070,3 +1070,11 @@ ValueError: Length mismatch: Expected axis has 0 elements, new values have 11 el
 2026-08-18 14:07:28,908 - INFO - No update needed for 2024.zip
 2026-08-18 14:07:29,317 - INFO - No update needed for 2025.zip
 2026-08-18 14:07:29,317 - INFO - No updates detected for any years.
+2026-08-18 15:07:29,340 - INFO - Starting the zip file update check.
+2026-08-18 15:07:29,963 - INFO - No update needed for 2020.zip
+2026-08-18 15:07:30,520 - INFO - No update needed for 2021.zip
+2026-08-18 15:07:30,979 - INFO - No update needed for 2022.zip
+2026-08-18 15:07:31,419 - INFO - No update needed for 2023.zip
+2026-08-18 15:07:31,859 - INFO - No update needed for 2024.zip
+2026-08-18 15:07:32,641 - INFO - No update needed for 2025.zip
+2026-08-18 15:07:32,641 - INFO - No updates detected for any years.
